@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Products Gallery Page";
+}
+
+<h1>Catalog</h1>
+<hr/>
+<div class="text-center">
+    @{
+        List<Product> allProducts=(List<Product>)ViewData["catalog"]; 
+        <ol>
+            @foreach(Product fruits in allProducts){
+                <li>@fruits.Title</li>
+            }
+        </ol>
+    } 
+    <hr/>
+</div>

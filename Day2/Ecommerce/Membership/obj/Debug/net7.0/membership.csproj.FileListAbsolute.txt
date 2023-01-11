@@ -1,0 +1,15 @@
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.csproj.AssemblyReference.cache
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.AssemblyInfoInputs.cache
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.AssemblyInfo.cs
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.csproj.CoreCompileInputs.cache
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\bin\Debug\net7.0\membership.exe
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\bin\Debug\net7.0\membership.deps.json
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\bin\Debug\net7.0\membership.runtimeconfig.json
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\bin\Debug\net7.0\membership.dll
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\bin\Debug\net7.0\membership.pdb
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.dll
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\refint\membership.dll
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.pdb
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\membership.genruntimeconfig.cache
+E:\DotNet\DotNetSolution\Day2\Ecommerce\Membership\obj\Debug\net7.0\ref\membership.dll

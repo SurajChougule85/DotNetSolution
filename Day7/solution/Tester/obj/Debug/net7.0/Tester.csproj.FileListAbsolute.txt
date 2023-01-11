@@ -1,0 +1,15 @@
+E:\DotNet\DotNetSolution\Day7\solution\Tester\bin\Debug\net7.0\Tester.exe
+E:\DotNet\DotNetSolution\Day7\solution\Tester\bin\Debug\net7.0\Tester.deps.json
+E:\DotNet\DotNetSolution\Day7\solution\Tester\bin\Debug\net7.0\Tester.runtimeconfig.json
+E:\DotNet\DotNetSolution\Day7\solution\Tester\bin\Debug\net7.0\Tester.dll
+E:\DotNet\DotNetSolution\Day7\solution\Tester\bin\Debug\net7.0\Tester.pdb
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.csproj.AssemblyReference.cache
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.AssemblyInfoInputs.cache
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.AssemblyInfo.cs
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.csproj.CoreCompileInputs.cache
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.dll
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\refint\Tester.dll
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.pdb
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\Tester.genruntimeconfig.cache
+E:\DotNet\DotNetSolution\Day7\solution\Tester\obj\Debug\net7.0\ref\Tester.dll

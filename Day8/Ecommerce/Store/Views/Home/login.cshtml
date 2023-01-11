@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Login Page";
+
+}
+
+<style>
+    table,td{border: 3px solid darkcyan;
+    border-radius: 5px;
+    border-collapse: collapse;
+
+    }
+    td{
+        padding: 10px;
+    }
+</style>
+
+<h1>Login</h1>
+
+<div class="text-center">
+    <form action="/home/validate">
+        <table>
+            <tr>
+                <td><label for="email">User Email</label></td>
+                <td><input type="email" id=" email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="pass" name="pass" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</div>

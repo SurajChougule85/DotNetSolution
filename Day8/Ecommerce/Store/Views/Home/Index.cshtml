@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Store</h1>
+    <ol>
+        <li>Trees</li>
+        <li>Animals</li>
+        <li>Birds</li>
+    </ol>
+
+    @{
+        List<string> animals=new List<string>();
+            animals.Add("Elephant");
+            animals.Add("Lepord");
+            animals.Add("Bull");
+            animals.Add("Tiger");
+        <ol> 
+                @foreach(string animal in animals){
+                    <li>@animal</li>
+                }</ol>
+           
+            
+    }
+</div>
