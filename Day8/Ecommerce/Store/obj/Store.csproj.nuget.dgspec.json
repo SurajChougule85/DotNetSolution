@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DotNet\\DotNetSolution\\Day8\\Ecommerce\\Store\\Store.csproj": {}
+    "E:\\DotNet\\DotnetSolution\\Day8\\Ecommerce\\Store\\Store.csproj": {}
   },
   "projects": {
-    "E:\\DotNet\\DotNetSolution\\Day8\\Ecommerce\\Store\\Store.csproj": {
+    "E:\\DotNet\\DotnetSolution\\Day8\\Ecommerce\\Store\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DotNet\\DotNetSolution\\Day8\\Ecommerce\\Store\\Store.csproj",
+        "projectUniqueName": "E:\\DotNet\\DotnetSolution\\Day8\\Ecommerce\\Store\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "E:\\DotNet\\DotNetSolution\\Day8\\Ecommerce\\Store\\Store.csproj",
+        "projectPath": "E:\\DotNet\\DotnetSolution\\Day8\\Ecommerce\\Store\\Store.csproj",
         "packagesPath": "C:\\Users\\XIAOMI\\.nuget\\packages\\",
-        "outputPath": "E:\\DotNet\\DotNetSolution\\Day8\\Ecommerce\\Store\\obj\\",
+        "outputPath": "E:\\DotNet\\DotnetSolution\\Day8\\Ecommerce\\Store\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\XIAOMI\\AppData\\Roaming\\NuGet\\NuGet.Config"
