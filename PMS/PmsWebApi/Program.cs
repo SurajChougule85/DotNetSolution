@@ -43,7 +43,61 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
-//get welcome message
+//get welcome message and do writing...
 app.MapGet("/",() =>"Welcome To Store");
+
+app.MapGet("/items",async(ToDoDb db)=>
+await db.todos.ToListAsync()
+);
+
+//get all items which are completed in status..
+app.MapGet("/items/complete",async(ToDoDb db) =>
+await db.todos.Where(t => t.IsComplete).ToListAsync());
+
+//get item whose id matching
+app.MapGet("/items{id}",async( int id,ToDoDb db)=>
+await db.todos.FindAsync(id)
+is Todo todo ? Results.Ok(todo) :Results.NotFound()
+);
+
+
+//insert new item
+app.MapPost("/todoitems", async (Todo todo, ToDoDb db) =>
+{
+    db.todos.Add(todo);
+    await db.SaveChangesAsync();
+
+    return Results.Created($"/todoitems/{todo.Id}", todo);
+});
+
+//update existing item
+app.MapPut("/todoitems/{id}", async (int id, Todo inputTodo, ToDoDb db) =>
+{
+    var todo = await db.todos.FindAsync(id);
+
+    if (todo is null) return Results.NotFound();
+
+    todo.Name = inputTodo.Name;
+    todo.IsComplete = inputTodo.IsComplete;
+
+    await db.SaveChangesAsync();
+
+    return Results.NoContent();
+});
+
+app.MapDelete("/todoitems/{id}", async (int id, ToDoDb db) =>
+{
+    if (await db.todos.FindAsync(id) is Todo todo)
+    {
+        db.todos.Remove(todo);
+        await db.SaveChangesAsync();
+        return Results.Ok(todo);
+    }
+    return Results.NotFound();
+});
+
+
+
+app.Run();
 
 app.Run();
